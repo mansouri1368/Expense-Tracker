@@ -1,0 +1,35 @@
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin:0.5rem ;
+   
+
+    
+}
+
+.form-input h1{
+ color: white;
+ font-size: 1.5rem;
+}
+
+.form-input input{
+padding: 1rem, 1rem;
+background-color: white;
+border-radius: 8px;
+font-size: 1.5rem;
+border: none;
+height: 40px;
+}
+
+
+.form-input.inValid h1{
+color: #f37c13;
+
+}
+
+.form-input.inValid input{
+background-color: #fcdcbf;
+}

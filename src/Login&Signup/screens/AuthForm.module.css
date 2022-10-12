@@ -1,0 +1,19 @@
+
+.form {
+    background-color: #c30b64;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.frame{
+    display: flex;
+    flex-direction: column;
+    background-color: palevioletred;
+    align-items: center;
+    justify-content: center;
+   margin: 1rem;
+   border-radius: 8px;
+   height: fit-content;
+}

@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+.container::before{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-image: url('/public/Making-A-Monthly-Budget-960x502.png');
+    
+    content: "";
+    height: 150vh;
+    width: 100%;
+    opacity: 0.4;
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    border: none;
+    border-top: 2px solid rgb(17, 38, 173);
+    background-color: inherit;
+    cursor: pointer;
+    width: 40%;
+}
+.iconContainer:hover{
+    opacity:0.8
+}
+.iconContainer:focus{
+    background-color: rgba(174, 0, 255, 0.464);
+}
+.iconContainer:active{
+    background-color: rgba(174, 0, 255, 0.464);
+}
+
+.icon{
+    border-top: 10px;
+}
+

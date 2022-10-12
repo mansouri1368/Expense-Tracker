@@ -1,0 +1,55 @@
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #be467e;
+    font:inherit;
+    font-weight: bold;
+    color: aliceblue;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    width: 40%;
+    border: none;
+    margin-top: 20px;
+    
+}
+
+.button:hover{
+    background-color: brown;
+}
+
+.flatButton{
+    color:white;
+    border: none;
+    font-weight: 800;
+    font-size: 1rem;
+   background-color: inherit;
+   margin-top: 20px;
+   margin-bottom: 10px;
+
+}
+.flatButton:hover{
+    opacity: 0.8;
+}
+
+.iconButton {
+display: flex;
+flex-direction: row;
+background-color: #c30b64;
+border-radius: 4px;
+
+width: fit-content;
+height: fit-content;
+}
+
+.iconButton button{
+
+    border: none;
+    background-color: inherit;
+font-size: 10px;
+}
+
+.iconButton ion-icon{
+  color: #f9beda;
+  
+}
